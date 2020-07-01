@@ -1,0 +1,10 @@
+ip = "0.0.0.0"
+port = 23456
+motd = "First Line\nSecond Line"
+
+actionBarText = "You are in the limbo."
+
+hasJoinedUrl = "https://sessionserver.mojang.com/session/minecraft/hasJoined?username=%name%&serverId=%serverid%"
+preventProxyConnections = false # If set to true @hasJoinedUrl will include an ip field
+logPings = false # If set to true the server will log player pinging
+onlineMode = false
